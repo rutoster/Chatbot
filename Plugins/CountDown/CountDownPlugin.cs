@@ -16,16 +16,17 @@ namespace CountDown
         public string Id => _Id;
 
         public PluginOutput Execute(PluginInput input)
-        {
-            var interval = int.Parse(input.Message);
+        {         
+            var interval = 0;
+            if (input.Message != null && input.Message != "")
+                interval = int.Parse(input.Message);
             _scheduler.Schedule(TimeSpan.FromSeconds(interval), Id, "");
             return new PluginOutput("Countdown started.");
-
         }
 
-        public void OnScheduler(string data)
-        {
+            public void OnScheduler(string data)
+            {
             Console.WriteLine("Fired.");
-        }
+             }
     }
 }
