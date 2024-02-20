@@ -12,8 +12,10 @@
     <ProjectReference Include="..\Plugins\DiceRoller\DiceRoller.csproj" />
     <ProjectReference Include="..\Plugins\Echo\EchoPlugin.csproj" />
     <ProjectReference Include="..\Plugins\List\ListPlugin.csproj" />
+    <ProjectReference Include="..\PrintToFile\PrintToFile.csproj" />
     <ProjectReference Include="..\Shared\BasePlugin\BasePlugin.csproj" />
     <ProjectReference Include="..\Shared\Dal\Dal\Dal.csproj" />
+	<ProjectReference Include="..\Plugins\PrintToFile\PrintToFile.csproj" />
   </ItemGroup>
 
 </Project>

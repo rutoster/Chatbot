@@ -5,6 +5,7 @@ using CountTheWords;
 using DiceRoller;
 using Echo;
 using ListPlugin;
+using PrintToFile;
 using CountWord;
 using System;
 using System.Collections.Generic;
@@ -49,7 +50,10 @@ namespace Infrastructure
             {
                 return new CountWordPlugin();
             }
-            else
+            else  if (id == PrintToFilePlugin._Id)
+            {
+                return new PrintToFilePlugin();
+            }
 
             {
                 throw new NotImplementedException();
@@ -64,7 +68,10 @@ namespace Infrastructure
             EchoPlugin._Id,
             ListPlugin.ListPlugin._Id,
             CountTheWordsPlugin._Id,
-            CountWordPlugin._Id
+            CountWordPlugin._Id,
+            PrintToFilePlugin._Id
         };
+
+
     }
 }
