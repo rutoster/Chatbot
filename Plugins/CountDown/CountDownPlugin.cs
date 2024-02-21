@@ -23,9 +23,6 @@ namespace CountDown
                 interval = int.Parse(input.Message);
             }
             _scheduler.Schedule(TimeSpan.FromSeconds(interval), Id, "");
-           
-
-
             return new PluginOutput("Countdown started.");
 
         }
