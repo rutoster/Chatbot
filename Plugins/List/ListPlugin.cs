@@ -44,7 +44,7 @@ namespace ListPlugin
                 return new PluginOutput($"New task: {str}", JsonSerializer.Serialize(data));
             }
             else if (input.Message.StartsWith("delete"))
-            {   
+            {
                 list.RemoveAt(list.Count - 1);
                 var data = new PersistentDataStructure(list);
 
