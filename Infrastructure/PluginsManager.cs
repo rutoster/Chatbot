@@ -7,6 +7,7 @@ using Echo;
 using ListPlugin;
 using PrintToFile;
 using CountWord;
+using CircleScope;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,7 +55,11 @@ namespace Infrastructure
             {
                 return new PrintToFilePlugin();
             }
-
+            else if (id == CircleHekefPlugin._Id)
+            {
+                return new CircleHekefPlugin();
+            }
+            else
             {
                 throw new NotImplementedException();
             }
@@ -70,6 +75,7 @@ namespace Infrastructure
             CountTheWordsPlugin._Id,
             CountWordPlugin._Id,
             PrintToFilePlugin._Id
+            CircleHekefPlugin._Id
         };
 
 
