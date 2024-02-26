@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F55D7406-E0F7-45A5-8E74-345293E2E7B1}"
 EndProject
@@ -36,7 +36,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountTheWords", "Plugins\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountWordPlugin", "Plugins\CountWord\CountWordPlugin.csproj", "{7DA2498A-C086-4046-AFF8-331B3D10C2B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{43964FF6-B7F4-44EC-A2C8-6B8385CBA30A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleScope", "CircleScope\CircleScope.csproj", "{9FC64DFC-AD65-4E1C-94B3-3E6A59491CC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -63,6 +63,7 @@ namespace ListPlugin
                     var data = new PersistentDataStructure(list);
                     return new PluginOutput($"Delete {str} task", JsonSerializer.Serialize(data));
                 }
+
             }
             else if (input.Message.ToLower() == "list")
             {

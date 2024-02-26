@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CircleScope\CircleScope.csproj" />
     <ProjectReference Include="..\Plugins\CountDown\CountDown.csproj" />
     <ProjectReference Include="..\Plugins\Counter\Counter.csproj" />
     <ProjectReference Include="..\Plugins\CountWords\CountTheWords.csproj" />
@@ -12,9 +13,12 @@
     <ProjectReference Include="..\Plugins\DiceRoller\DiceRoller.csproj" />
     <ProjectReference Include="..\Plugins\Echo\EchoPlugin.csproj" />
     <ProjectReference Include="..\Plugins\List\ListPlugin.csproj" />
-	<ProjectReference Include="..\Plugins\BMI\bmi.csproj" />
+	  <ProjectReference Include="..\Plugins\BMI\bmi.csproj" />
+    <ProjectReference Include="..\Plugins\BMI\CircleScope.csproj" />
+    <ProjectReference Include="..\PrintToFile\PrintToFile.csproj" />
     <ProjectReference Include="..\Shared\BasePlugin\BasePlugin.csproj" />
     <ProjectReference Include="..\Shared\Dal\Dal\Dal.csproj" />
+	<ProjectReference Include="..\Plugins\PrintToFile\PrintToFile.csproj" />
   </ItemGroup>
 
 </Project>
